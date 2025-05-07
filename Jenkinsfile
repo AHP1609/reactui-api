@@ -11,7 +11,7 @@ pipeline {
         API_IMAGE = "${DOCKERHUB_USER}/api"
 
         JFROG_USER = 'anuharish52@gmail.com'
-        JFROG_PASSWORD = credentials('jfrog-api-token') // Secret text credential
+        JFROG_PASSWORD = credentials('jfrog-api-token') 
         HELM_REPO_URL = 'https://trialssd665.jfrog.io/artifactory/api-ui-helm-local'
     }
 
